@@ -1,0 +1,20 @@
+@import url("Styles/menu.css");
+@import url("Styles/nosso-trabalho.css");
+@import url("Styles/unidades.css");
+@import url("Styles/contato.css");
+@import url("Styles/footer.css");
+@import url("Styles/inicio.css");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}

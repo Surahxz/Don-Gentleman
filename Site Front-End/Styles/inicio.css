@@ -1,0 +1,66 @@
+.section-inicio {
+    height: 100vh;
+    background-image: url('../imagens/barbershop-foto-inicial.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.titulo {
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.sub-titulo {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .section-inicio .section-inicio-titulo {
+        font-size: 3rem;
+    }
+
+    .section-inicio .section-inicio-sub-titulo {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section-inicio .section-inicio-titulo {
+        font-size: 3.5rem;
+    }
+
+    .section-inicio .section-inicio-sub-titulo {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-inicio .section-inicio-titulo {
+        font-size: 2.5rem;
+    }
+
+    .section-inicio .section-inicio-sub-titulo {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-inicio .section-inicio-titulo {
+        font-size: 1.5rem;
+    }
+
+    .section-inicio .section-inicio-sub-titulo {
+        font-size: 1rem;
+    }
+}
